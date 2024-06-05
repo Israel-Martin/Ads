@@ -1,0 +1,338 @@
+@media(min-width:50px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .container{
+        background: linear-gradient(90deg, rgb(49, 46, 62)0%, rgb(81, 78, 95)40%, rgb(49, 46, 62)100%);
+        color: white;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display:flex;
+
+        flex-direction: column;
+        position:fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    .image{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding-top: 85px;
+        gap: 50px;
+    }
+
+    .image>img {
+        margin:0 65px;
+        border-radius: 40px;
+        width: 300px;
+    }
+    .shadow{
+        background: linear-gradient(90deg, rgba(49, 46, 62, 0.522)0%, rgba(0, 0, 0, 0.653) 40%, rgba(49, 46, 62, 0.774)100%);
+        width: 80px;
+        height: 7px;
+        border-radius: 50%;
+        margin:0 165px;
+    }
+    .Right{
+        text-align: center;
+        justify-content: center;
+        padding:20px ;
+    }
+    h1{
+        font-weight: normal;
+        font-size: 50px;
+        margin-top: 40px;
+        margin-bottom: -2px;
+    }
+    p{
+        padding: 0 20px;
+    }
+    .Reviews{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        padding-bottom: 7px;
+        padding-top: 20px;
+    }
+    .sideByside{
+        padding: 0 30px;
+        border-right: 1px solid white;
+    }
+    h3{
+        margin: -8px;
+        font-weight: normal;
+        font-size:25px;
+    }
+    #free{
+        border-right: none;
+        padding: 0 40px;
+    }
+    span{
+        font-size: 12px;
+        color: rgb(162, 166, 169);
+    }
+    .CTA{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        gap: 7%;
+        padding-top: 10px;
+    }
+    .CTA1>a>button{
+        background-color: transparent;
+        color: white;
+        border: 1px solid white;
+        border-radius: 20px;
+        padding:10px 50px;
+        cursor: pointer;
+        font-size: 18px;
+    }
+    .CTA2>a>button{
+        background-color: rgb(4, 124, 4);
+        color: white;
+        border: none;
+        border-radius: 20px;  
+        padding: 10px 50px;
+        cursor: pointer; 
+        font-size: 18px; 
+    }
+    .CTA1>a>button:hover{
+        color: black;
+        background-color: white;
+    }
+    .CTA2>a>button:hover{
+        color: black;
+        background-color: yellow;
+    }
+    .google-play{
+        margin-top: 50px;
+        padding:10px ;
+        cursor: pointer;
+    }
+    .blockAds{
+        position: fixed;
+        top: 10px;
+        right: -20px;
+        width: 100px;
+        cursor: pointer;
+    }
+    
+}
+
+@media(min-width:500px) {
+    .container{
+        padding: 10px;
+        margin: 5px;
+        background: linear-gradient(90deg, rgb(49, 46, 62)0%, rgb(81, 78, 95)40%, rgb(49, 46, 62)100%);
+        color: white;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .image{
+        padding-top: 0;
+    }
+    img{
+        border-radius: 40px;
+        width: 200px;
+       
+    }
+    .shadow{
+        display: none;
+    }
+    .Right{
+        text-align: center;
+        justify-content: center;
+        padding:20px ;
+        margin-right: 40px;
+    }
+    h1{
+        font-weight: normal;
+        font-size: 50px;
+        margin-bottom: -2px;
+    }
+    p{
+        padding: 0 20px;
+    }
+    .Reviews{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        padding-bottom: 7px;
+        padding-top: 10px;
+    }
+    .sideByside{
+        padding: 0 25px;
+        border-right: 1px solid white;
+    }
+    h3{
+        margin: -8px;
+        font-weight: normal;
+    }
+    #free{
+        border-right: none;
+        padding: 0 25px;
+    }
+    span{
+        font-size: 12px;
+    }
+    .CTA{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        gap: 7%;
+        padding-top: 10px;
+        padding-right:10px ;
+        padding-left: 10px;
+    }
+    .CTA1>a>button{
+        background-color: transparent;
+        color: white;
+        border: 1px solid white;
+        border-radius: 20px;
+        padding:10px 50px;
+        cursor: pointer;
+        font-size: 18px;
+    }
+    .CTA2>a>button{
+        background-color: rgb(4, 124, 4);
+        color: white;
+        border: none;
+        border-radius: 20px;  
+        padding: 10px 50px;
+        cursor: pointer; 
+        font-size: 18px; 
+    }
+    .CTA1>a>button:hover{
+        color: black;
+        background-color: white;
+    }
+    .CTA2>a>button:hover{
+        color: black;
+        background-color: yellow;
+    }
+    .google-play{
+        margin-top: 20px;
+        padding:10px ;
+        cursor: pointer;
+    }
+    .blockAds{
+        position: fixed;
+        top: 10px;
+        right: -20px;
+        width: 100px;
+        cursor: pointer;
+    }
+    
+}
+
+@media(min-width:1000px){
+    .container{
+        padding: 10px;
+        margin: 5px;
+        background: linear-gradient(90deg, rgb(49, 46, 62)0%, rgb(81, 78, 95)40%, rgb(49, 46, 62)100%);
+        color: white;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .image{
+        padding-top: 0;
+    }
+    img{
+        padding:10px;
+        border-radius: 40px;
+        width: 200px;
+        
+    }
+    .Right{
+        text-align: center;
+        justify-content: center;
+        padding:20px ;
+    }
+    h1{
+        font-weight: normal;
+        font-size: 50px;
+        margin-bottom: -2px;
+    }
+    p{
+        padding: 0 20px;
+    }
+    .Reviews{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        padding-bottom: 7px;
+        padding-top: 10px;
+    }
+    .sideByside{
+        padding: 0 30px;
+        border-right: 1px solid white;
+    }
+    h3{
+        margin: -8px;
+        font-weight: normal;
+    }
+    #free{
+        border-right: none;
+        padding: 0 30px;
+    }
+    span{
+        font-size: 12px;
+    }
+    .CTA{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        gap: 7%;
+        padding-top: 10px;
+    }
+    .CTA1>a>button{
+        background-color: transparent;
+        color: white;
+        border: 1px solid white;
+        border-radius: 20px;
+        padding:10px 50px;
+        cursor: pointer;
+        font-size: 18px;
+    }
+    .CTA2>a>button{
+        background-color: rgb(4, 124, 4);
+        color: white;
+        border: none;
+        border-radius: 20px;  
+        padding: 10px 50px;
+        cursor: pointer; 
+        font-size: 18px; 
+    }
+    .CTA1>a>button:hover{
+        color: black;
+        background-color: white;
+    }
+    .CTA2>a>button:hover{
+        color: black;
+        background-color: yellow;
+    }
+    .google-play{
+        margin-top: 20px;
+        padding:10px ;
+        cursor: pointer;
+    }
+    .blockAds{
+        position: fixed;
+        top: 10px;
+        right: -20px;
+        width: 100px;
+        cursor: pointer;
+    }
+    
+}
